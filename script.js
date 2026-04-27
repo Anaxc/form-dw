@@ -18,7 +18,7 @@ botao.addEventListener("click",()=> {
    console.log(nome)
 
      resultado.innerHTML = `
-       <img src="${img}" alt="Foto do usuário" width="200" height="150" class="foto">
+       <img src="${img}" alt="Foto do usuário" width="160" height="140" class="foto">
        <p>Nome: ${nome} </p>
        <p>Profissão: ${profiss} </p>
        <p class="dt">Data de nascimento: ${data} </p>
